@@ -8,6 +8,15 @@
         a {
             color: #ff0000;
         }
+        html, body {
+          margin: 0;
+          padding: 0;
+          font-size: 62.5%;
+        }
+        h1 {
+          font-size: 2em;
+          margin-top: 0;
+        }
         /* SOCIAL STYLES */
         .social-link{
           background: rgba(150, 150, 150, .5);
@@ -21,37 +30,49 @@
           font-size: 30px;
         }
         /* BIO STYLES */
-        .bio-box{
-          border: 1px solid #020202;
+        .bio-wrapper {
+          /*font-size: 24px;*/
+        }
+        .bio-box {
+          border: 1px solid black;
+          font-size: 1em;
           width: 50%;
         }
-        .bio-box a{
-          color: #ad8ae2;
-          background: rgba(150, 150, 150, .2);
+        .bio-box h3 {
+          font-size: 1.5em;
         }
-        .bio-copy{
-          font-size: 0.001 em;
+        .bio-copy {
+          font-size: 1em;
         }
-        .bio-copy a{
-          color: #ad8ae2;
-          background: rgba(150, 150, 150, .2);
-          font-size: 0.001 em;
+        .bio-copy a {
+          color: green;
+        }
+        /* HERO STYLES */
+        .full-hero{
+          background-color: #c7dbfc;
+          height: 50vw;
+          width: 50vw;
+        }
+        .hero-home{
+
         }
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
-    <ul>
-      <li class="social-link">
-        <a href="http://example.com/">Link</a>
-      </li>
-      <li class="social-link">
-        <a href="http://example.com/">Link</a>
-      </li>
-      <li class="social-link">
-        <a href="http://example.com/">Link</a>
-      </li>
-    </ul>
+    <div class="full-hero hero-home">
+      <h1>I'm an h1</h1>
+        <ul>
+          <li class="social-link">
+            <a href="http://example.com/">Link</a>
+          </li>
+          <li class="social-link">
+            <a href="http://example.com/">Link</a>
+          </li>
+          <li class="social-link">
+            <a href="http://example.com/">Link</a>
+          </li>
+      </ul>
+    </div>
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
         <div class="bio-box">
