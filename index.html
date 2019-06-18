@@ -19,8 +19,17 @@
         }
         /* SOCIAL STYLES */
         .social-link{
-          background: rgba(150, 150, 150, .5);
+          background: rgba(150, 150, 150, 0.5);
           color: #0f00e8;
+          /*display: none; /*can hide everyting under this class*/
+          /*display: block; /*Turns everything under this into a
+          large block element. */
+          display: inline-block;
+          height: 36px;
+          width: 36px;
+        }
+        .show{
+          display: block;
         }
         .social-link li a{
           color: #ad8ae2;
@@ -54,7 +63,7 @@
           width: 50vw;
         }
         .hero-home{
-
+              display: inline;
         }
     </style>
   </head>
@@ -62,7 +71,7 @@
     <div class="full-hero hero-home">
       <h1>I'm an h1</h1>
         <ul>
-          <li class="social-link">
+          <li class="social-link" class = "show">
             <a href="http://example.com/">Link</a>
           </li>
           <li class="social-link">
